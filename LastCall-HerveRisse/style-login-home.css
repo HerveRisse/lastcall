@@ -1,0 +1,100 @@
+h2{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: flex-end;
+	color: #EE7933;
+	font-size: 16px;
+	position: absolute;
+	bottom: 60px;
+	right: 300px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.body {
+    background-color: #EE7933;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.title-header {
+    font-size: 100px;
+    color: white;
+}
+
+.home-menu, .home-connexion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.title-form {
+    font-size: 50px;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input, .btn-inscription {
+    width: 100%;
+	margin: 10px;
+	align-self: center;
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #EE7933;
+	font-weight: 600;
+	cursor: pointer;
+	border: 3px solid;
+	padding: 20px 30px;
+	box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+  	touch-action: manipulation;
+}
+
+.btn-menu-home,.btn-inscription,.connexion {
+    width: 214px;
+	margin: 10px;
+	align-self: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: rgb(236, 236, 236);
+	cursor: pointer;
+	border: 3px solid;
+	padding: 20px 40px;
+	box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+  	touch-action: manipulation;
+    background-color: #66BDD9;
+}
+
+.home-menu {
+    background-color: white;
+}
+
+.title-header-home {
+    font-size: 100px;
+    color: #EE7933;
+}
