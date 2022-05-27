@@ -4,6 +4,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=lastcall','root','', array(PDO::ATTR
 
 session_start();
 
+// @TODO: Je suis co ou pas?
 if(isset($_GET['action'])&& $_GET['action'] == 'deconnexion') {
     session_destroy();
     

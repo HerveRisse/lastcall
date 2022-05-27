@@ -62,7 +62,7 @@ if($content == '<p> Inscription validée !</p>') {
         </h2>
         <form method="post" class="form">
             <input type="text" name="pseudo" id="pseudo" class="input" placeholder="Pseudo..." required>
-            <input type="text" name="mdp" id="mdp" class="input" placeholder="Mot de passe..." required>
+            <input type="password" name="mdp" id="mdp" class="input" placeholder="Mot de passe..." required>
             <input type="submit" value="S'inscrire" class="input connexion">
         </form>
         <button class="btn-inscription"><a href="login.php">Se connecter</a></button>

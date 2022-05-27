@@ -1,7 +1,7 @@
 <?php 
 include('init.php');
 include('disconnect.php');
-
+// @TODO: Je suis co pu pas?
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ include('disconnect.php');
         <h2><?php echo "for you : " . $_SESSION['membre']['pseudo'];?></h2>
     </header>
     <section class="home-menu">
-        <button class="btn-menu-home"><a href="arcade.php">New Game</a></button>
+        <a class="btn-menu-home" href="arcade.php">New Game</a>
         <button class="btn-menu-home"><a href="leaderboard.php">Score</a></button>
         <button class="btn-menu-home"><a href="settings.php">Options</a></button>
     </section>
